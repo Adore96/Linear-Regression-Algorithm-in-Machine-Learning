@@ -56,7 +56,7 @@ plt.grid(which='major',linestyle='-',linewidth='0.5',color='green')
 plt.grid(which='minor',linestyle=':',linewidth='0.5',color='black')
 
 plt.scatter(X_test,Y_test,color='grey')
-plt.plot(X_test,y_prediction,color='red',linewidth=2)
+# plt.plot(X_test,y_prediction,color='red',linewidth=2)
 plt.title('check')
 plt.show()
 
