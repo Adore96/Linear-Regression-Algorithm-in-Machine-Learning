@@ -68,6 +68,8 @@ plt.ylabel('Max temp')
 plt.plot(X_test,y_prediction,color='red',linewidth=2)
 plt.show()
 
+
+#printing errors to check whether how the trained model works
 print('Mean absolute error :' , metrics.mean_absolute_error(Y_test,y_prediction))
 print('Mean squared error :' , metrics.mean_squared_error(Y_test,y_prediction))
 print('Root Mean absolute error :' , np.sqrt(metrics.mean_squared_error(Y_test,y_prediction)))
